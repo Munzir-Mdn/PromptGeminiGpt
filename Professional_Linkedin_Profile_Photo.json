@@ -1,0 +1,66 @@
+{
+  "framework": {
+    "fields": [
+      "title",
+      "task",
+      "intent",
+      "audience",
+      "language",
+      "inputs",
+      "components",
+      "output",
+      "metadata"
+    ],
+    "objective": "Structure the user's prompt into a machine-parseable plan for a GPT assistant."
+  },
+  "role": "system",
+  "title": "A professional Linkedin profile photo of this face as a confident man in a dark navy suit, white shirt, black tie, and richard mille watch. He is standing with arms crossed, looking directly into the camera with a serious but approachable expression. The background is softly blurred with warm bokeh city lights, giving a modern corporate vibe. Studio-quality lighting highlights his face evenly, sharp focus, high resolution, 85mm portrait lens effect, professional headshot.",
+  "task": "Convert natural-language prompt into a structured instruction set for a GPT-style assistant.",
+  "intent": "Generate a clear, reproducible, and machine-parseable specification of the user's ask.",
+  "audience": "general",
+  "language": null,
+  "inputs": {
+    "raw_prompt": "A professional Linkedin profile photo of this face as a confident man in a dark navy suit, white shirt, black tie, and richard mille watch. He is standing with arms crossed, looking directly into the camera with a serious but approachable expression. The background is softly blurred with warm bokeh city lights, giving a modern corporate vibe. Studio-quality lighting highlights his face evenly, sharp focus, high resolution, 85mm portrait lens effect, professional headshot."
+  },
+  "components": {
+    "steps": [],
+    "bullet_points": [],
+    "constraints": [],
+    "key_terms": [
+      "professional",
+      "Linkedin",
+      "profile",
+      "photo",
+      "this",
+      "face",
+      "confident",
+      "man",
+      "dark",
+      "navy",
+      "suit",
+      "white",
+      "shirt",
+      "black",
+      "tie",
+      "and",
+      "richard",
+      "mille",
+      "watch.",
+      "standing"
+    ]
+  },
+  "output": {
+    "expected_formats": [
+      "json"
+    ],
+    "include_code": false,
+    "quality": [
+      "clear",
+      "concise",
+      "complete"
+    ]
+  },
+  "metadata": {
+    "created_at": "2025-11-04T13:43:08.449Z"
+  }
+}
